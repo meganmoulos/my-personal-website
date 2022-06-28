@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
     background: #EAFFF7;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif', serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#hero_image {
+    width: 562px;
+}
+
+#about_image {
+    width: 374px;
 }
