@@ -11,38 +11,47 @@
         <script src="script.js"></script>
         <header>
             <nav>
-                <a href="">Megan Moulos</a>
-                <a href="#about_section">About</a>
-                <a href="#experience_section">Experience</a>
-                <a href="#recent_projects_section">Portfolio</a>
-                <a href="">Contact</a>
+                <div id="nav_left">
+                    <a href="">Megan Moulos</a>
+                </div>
+                <div id="nav_right">
+                    <a href="#about_section">About</a>
+                    <a href="#experience_section">Experience</a>
+                    <a href="#recent_projects_section">Portfolio</a>
+                    <a href="">Contact</a>
+                </div>
             </nav>
         </header>
         <div id="hero">
-            <img src="images/meg_hero.png" alt="photo of Megan" id="hero_image">
-            <h1>Megan Moulos</h1>
-            <h2>Software Engineer & UI Designer</h2>
-            <p>I'm a <b>full-stack software engineer</b> and <b>UI designer</b> living and working in Seattle. I have previously worked in UX and graphic design.</p>
-            <button id="contact">Contact Me</button> 
-            <div>
-                <img src="images/github_icon.png" alt="github icon">
-                <img src="images/linkedin_icon.png" alt="linkedin icon">
-                <img src="images/instagram_icon.png" alt="instagram icon">
+            <div id="hero_left">
+                <img src="images/meg_hero.png" alt="photo of Megan" id="hero_image">
+            </div>
+            <div id="hero_right">
+                <h1>Megan Moulos</h1>
+                <h2>Software Engineer & UI Designer</h2>
+                <p id="hero_p">I'm a <b>full-stack software engineer</b> and <b>UI designer</b> living and working in Seattle. I have previously worked in UX and graphic design.</p>
+                <button id="contact">Contact Me</button> 
+                <div>
+                    <img src="images/github_icon.png" class="icon" alt="github icon">
+                    <img src="images/linkedin_icon.png" class="icon" alt="linkedin icon">
+                    <img src="images/instagram_icon.png" class="icon" alt="instagram icon">
+                </div>
             </div>
         </div>
         <div id="about_section">
-            <h3>About Me</h3>
+            <div id="about_left">
+                <h3>About Me</h3>
             
-            <p>I love creating online experiences that are user-focused. My interest in web design began back in the Myspace era, fiddling with HTML to make my personal site shine. Now I am a <b>full-stack engineer</b> and <b>UI designer</b> with experience in UX research and testing.  </p>
+                <p>I love creating online experiences that are user-focused. My interest in web design began back in the Myspace era, fiddling with HTML to make my personal site shine. Now I am a <b>full-stack engineer</b> and <b>UI designer</b> with experience in UX research and testing.  </p>
             
-            <p>I spend a lot of time with my two dogs and my lovely partner. I enjoy knitting, fostering animals, and paddleboarding in my free time.</p>
-            <p>Currently using: <b>JavaScript</b>, <b>HTML</b> and <b>CSS</b></p>
-            <img src="images/medogs 1.png" alt="Megan and her dogs" id="about_img">
+                <p>I spend a lot of time with my two dogs and my lovely partner. I enjoy knitting, fostering animals, and paddleboarding in my free time.</p>
+                <p>Currently using: <b>JavaScript</b>, <b>HTML</b> and <b>CSS</b></p>
+            </div>
+            <img src="images/medogs_1.png" alt="Megan and her dogs" id="about_img">
         </div>
         <div id="experience_section">
-            <div>
-                <div>
-                    <h3>Experience</h3>
+                <div id="experience_left">
+                    <h3 class="experience_head">Experience</h3>
                     
                     <h4>Freelance Artist</h4>
                     <p>2019 - 2022</p>
@@ -56,8 +65,8 @@
                     <p>2015 - 2019</p>
                     <p>I worked with traditional and digital media to create fine art for sale or by commission, as well as freelance and contract work creating logo designs and custom typography. I created websites, UI elements, and apps from the idea stage to complete, pixel-perfect designs. I also created traditional art including paintings, sketches, sculpture, and textiles. </p>
                 </div>
-                <div>
-                    <h3>Education</h3>
+                <div id="experience_half">
+                    <h3 class="experience_head">Education</h3>
 
                     <h4>Flatiron School</h4>
                     <p>2022</p>
@@ -75,7 +84,6 @@
                     
                     <button>Download Resume</button>
                 </div>
-            </div>
         </div>
         <div id="recent_projects_section">
             <div class="card">

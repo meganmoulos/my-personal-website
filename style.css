@@ -6,26 +6,140 @@ body {
     font-family: 'Noto Serif', serif;
 }
 
-a:link {
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+#nav_left {
+    font-weight: bold;
+}
+
+#nav_right {
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 a:visited {
-    text-decoration: none;
+    color: #304EB2;
 }
 
 a:hover {
-    text-decoration: none;
+    font-weight: bold;
 }
 
-a:active {
-    text-decoration: none;
+#hero {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 10vw;
+    padding-bottom: 110px; 
+    padding-right: 10vw;
+    justify-content: space-between;
+}
+
+#hero_left {
+    width: 40vw;
 }
 
 #hero_image {
-    width: 562px;
+    width: 30vw;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    border-radius: 8px;
 }
 
-#about_image {
-    width: 374px;
+#hero_right {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+h1 {
+    font-size: 5vw;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+h3 {
+    display: flex;
+    font-size: 2vw;
+    font-weight: 300;
+    justify-content: center;
+}
+
+#hero_p {
+    font-size: 20px;
+}
+
+button {
+    background-color: #E55CAB;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    width: 150px;
+    height: 50px;
+}
+
+#contact {
+    margin-bottom: 50px;
+}
+
+.icon {
+    width: 30px;
+    padding-right: 30px;
+}
+
+#about_section {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 10vw;
+    padding-bottom: 110px; 
+    padding-right: 10vw;
+    justify-content: space-between;
+}
+
+#about_img {
+    width: 30vw;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    border-radius: 10px;
+}
+
+#about_left {
+    width: 40vw;
+}
+
+#experience_section {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 10vw;
+    padding-bottom: 110px; 
+    padding-right: 10vw;
+    justify-content: space-between;
+    background-color: #98B99B;
+}
+
+.experience_head {
+    justify-content: left;
+}
+
+#experience_left,
+#experience_right {
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
 }
